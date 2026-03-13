@@ -1,0 +1,38 @@
+Sistema de Gestión de Inventario
+
+-Descripción
+
+Este proyecto es un programa en C# que simula un pequeño sistema de inventario para una tienda. El sistema permite representar productos y calcular el impuesto según su tipo.
+
+Los productos que se manejan son:
+
+Productos electrónicos
+Productos de alimentos
+
+-Conceptos aplicados
+
+Encapsulación:
+Los atributos de las clases son privados y se accede a ellos mediante propiedades públicas.
+
+Herencia:
+Las clases `ProductoElectronico` y `ProductoAlimento` heredan de la clase base `Producto`.
+
+Polimorfismo:
+El método `CalcularImpuesto()` es virtual en la clase `Producto` y se sobrescribe en las clases derivadas para calcular el impuesto según el tipo de producto.
+
+## Funcionamiento
+
+El programa crea dos productos de ejemplo:
+
+Producto electrónico:
+
+POCO X6 Pro 5G
+Precio: 17500
+Garantía: 6 meses
+
+Producto alimento: 
+
+Sandía
+Precio: 500
+
+Luego el programa muestra la información de cada producto y calcula el impuesto correspondiente.
